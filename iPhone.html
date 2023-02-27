@@ -1,0 +1,68 @@
+<!--  todo: After six digits number gets smaller in order to fit in windows                                 -->
+<!--  todo: Operator Botton's background turns into white when it is lelected                               -->
+<!--  todo: AC turns into C when there is some expression and then transformes into AC back again           -->
+<!--  todo: Make keyboard inputs work with the calculator                                                   -->
+<!--  todo: Limit the visible display number to 9 digits + decimal 9 digits                                 -->
+<!--  todo: Make display font size dynamically change for when you have 6, 7, 8, 9 digits                   -->
+<!--  done: first number that is written shows as underfined but folowing numbers are ok. Why so, find it   -->
+<!--  done: it is not possible to put , and . in one expression                                             -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> iPhone Calculator</title>
+    <link rel="stylesheet" href="/iPhone.css">
+</head>
+<body>
+
+    <div class="calculator">                                                          <!-- Big divs that contains everything-->
+        <div class="top-container">                                                   <!-- top of iphone  -->
+            <div class="clock">
+                <span class="hour"></span> : <span class="minute"></span>             <!-- time  -->
+            </div>
+            <div class="img">
+                <img src="/iPhone.png" alt="img">                                      <!-- photo-->
+            </div>
+        </div>
+
+        <div class="display"> 0 </div>                                                 <!-- display that shows the result -->
+        <div class="buttons-container">                                                <!-- constainer that contains all bottoms  -->
+            <div class="button function ac"> AC</div>
+            <div class="button function pm"> ± </div>
+            <div class="button function percent"> % </div>
+            <div class="button operator division"> ÷ </div>
+            <div class="button number-7"> 7 </div>
+            <div class="button number-8"> 8 </div>
+            <div class="button number-9"> 9 </div>
+            <div class="button operator multiplication"> × </div>
+            <div class="button number-4"> 4 </div>
+            <div class="button number-5"> 5 </div>
+            <div class="button number-6"> 6 </div>
+            <div class="button operator subtraction"> − </div>
+            <div class="button number-1"> 1 </div>
+            <div class="button number-2"> 2 </div>
+            <div class="button number-3"> 3 </div>
+            <div class="button operator addition"> + </div>
+            <div class="button number-0"> 0 </div>
+            <div class="button decimal"> . </div>
+            <div class="button operator equal"> = </div>
+        </div>
+        <div class="bottom"></div>                                                     <!-- white in the footer of calculator-->
+    </div>
+
+
+
+
+
+
+
+
+    <script src="/iPhone.js"> </script>
+</body>
+</html>
